@@ -1,0 +1,311 @@
+/* Empty. Add your*/
+.ima{
+  width: 100px;
+  left: 20px;
+}
+.tabla{
+
+  width: 380px;
+  left:900px;
+  right: 700px;
+}
+.fondotabla{
+  background: url("https://cargar.org/imagen/fondos-para-whatsapp-patada-de-caballo-paisajes-myid-OIP.FGHRLnCKfeh95s1xPW1_qAHaMW.jpg")no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.contenedor{
+	background: url("http://landscape-photography-blog.com/images/pokemon-wallpapers/36406291-pokemon-wallpapers.jpg")no-repeat;
+	background-size: cover;
+	width: 100% !important;
+	height: 920px !important;
+}
+.login{
+	background:url("https://www.rosiesrewards.com/wp-content/uploads/2018/11/pokemon-iphone-wallpaper-luxury-fondos-para-whatsapp-of-pokemon-iphone-wallpaper.jpg")no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	opacity:0.7;
+	margin-top:15%;
+	border-radius: 60px;
+	border: 6px #000000 solid;
+}
+.nombre{
+	margin-top: 30%;
+}
+.usuario{
+	background-size: center;
+	width: 50%;
+	height: 200px;
+	margin-left: 25%;
+}
+.navBar{
+	height:auto;
+	background: transparent;
+}
+.pokk{
+	margin: 0 auto;
+	height: 50px;
+
+}
+.pok{
+	color: #FFF;
+}
+.altototal{
+	height: 100%;
+}
+.pad{
+	padding: 4%;
+}
+.pokeinfo{
+	margin: 0 auto;
+	width: 100% !important;
+	border: 4px #000000 solid;
+}
+.imgpoke{
+	background: #CE8D0F;
+	margin:0 auto;
+	height: 150px !important;
+	width: 100% !important;
+}
+.nompoke{
+	background:#39E873;
+	padding: 4%;
+	border-top: 4px solid #000000;
+  color: black;
+}
+.fondo{
+  background: gray;
+	background-size: cover;
+}
+.centrar{
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 39px;
+  color: purple;
+}
+.centrarr{
+background: red;
+  text-align: center;
+  border: 1px solid black;
+
+}
+------------------------------------------------ */
+#formulario{
+  font-family: sans-serif;
+  background: #56C0D3;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  border-bottom: 5px solid #205ab4;
+  margin-bottom:5px;
+}
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* FORMULARIO: fondo blanco y casillas --------------------------- */
+form{
+  background-color: ;
+  margin:10px;
+  margin:0 auto;
+  border-radius:19px;
+  width: 40%;
+  /* SECUENCIA: para centrar formulario */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  /* TAMAÑO LETRA: nombre, apellido, e-mail, etc ----- */
+    label{
+      margin-left: 8px;
+      font-size: 17px;
+      padding: 5px;
+      display:block;
+      width: 100%;
+      font-family: sans-serif;
+      color:#00FFE1;
+    }
+  /* -------------------------------------------------- */
+  /* EDICION CADA INPUT: diseño ----------------------- */
+    input{
+      margin-bottom:10px;
+      width: 95%;
+      padding: 2%;
+      margin-left: 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      font-style: italic;
+    }
+    /* Cuando da click dentro de un input --------------- */
+      input:focus{
+        background-color: #F2F2F2;
+      }
+    /* -------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* C U E R P O  -------------------------------------------------- */
+
+/* --------------------------------------------------------------- */
+/* FUNCION DEL BOTON REGISTRARSE --------- */
+#button {
+        width: 94%;
+        font-family: sans-serif;
+        font-size:15px;
+        font-weight: bolder;
+        background-color: #DF6530;
+        color: #fff;
+        cursor: pointer;
+        margin-bottom:15px;
+        margin-left:10px;
+        border: none;
+        padding: 3%;
+        border-radius: 20px 10px 20px 10px;
+    /* SOMBRA BOTON: darle sommbre al boton "resgistrarse"*/
+        -webkit-box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);
+         box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);
+}
+#button:hover{
+  background-color: #F45008;
+}
+.asa{
+  background:url(http://getwallpapers.com/wallpaper/full/0/8/2/53557.jpg) no-repeat;
+  background-size: 1400px;
+
+}
+.puta{
+  width: 150px;
+  height:130px;
+}
+.coco{
+	height:100px;
+	width:500px;
+
+}
+.caca{
+	height:450px;
+	width:100%;
+}
+
+
+body {
+  min-height: 100vh;
+  background: url('https://res.cloudinary.com/beumsk/image/upload/v1520767362/back-pika.jpg') no-repeat;
+  background-position: bottom left;
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header {
+  padding: 20px 0;
+  text-shadow: 1px 1px #F44336;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+}
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
+/* random image */
+#random {
+  width: 350px;
+  border-radius: ;
+  ¿
+  box-shadow: 0 0 2px 4px rgba(0,0,0,0.1);
+  color: transparent
+}
+#random:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* rotation animation on click */
+@keyframes rotation {
+  100% {transform: rotate(360deg);}
+}
+@-webkit-keyframes rotation {
+  100% {transform: rotate(360deg);}
+}
+.animated {
+  animation: rotation 1s linear;
+  -webkit-animation: rotation 1s linear;
+}
+
+/* youtube audio button */
+#youtube-audio {
+  width: 80px;
+  margin: auto;
+  padding: 20px 0;
+  color: #333;
+  cursor: pointer;
+}
+#youtube-audio:hover {
+  color: #f5f5f5;
+}
+#youtube-icon {
+  display: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+}
+a {
+  color: #F44336;
+  text-decoration: none;
+  text-shadow: none;
+}
+a:hover, a:focus {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+.pokeas{
+  width: 350px;
+  height: 300px;
+  background-size: 20%;
+}
+.imgpoa{
+  width: 250px;
+  height:200px;
+}
+.olas{
+  font-family: 'Righteous', cursive;
+  font-style: italic;
+  font-display: auto;
+  font-size: 40px;
+  color: blue;
+
+}
+body.aa{
+  height: 900px;
+  width: 50px;
+}
+.pokebola{
+  width: 150px;
+  height: 200px;
+}
+.fondoasw{
+  background: url(https://image.winudf.com/v2/image/Y29tLm1pbmltYWwucG9rZXdhbGxwYXBlcnNfc2NyZWVuXzdfMTUyNjI1OTIwNV8wOTM/screen-7.jpg?h=800&fakeurl=1)no-repeat;
+}
+.apaas{
+  background: url(https://image.winudf.com/v2/image/Y29tLmFuZHJvbW8uZGV2NjYwNjE0LmFwcDczNTg3NV9zY3JlZW5fNV8xNTE4NTA0MDcwXzA1OA/screen-5.jpg?h=800&fakeurl=1)no-repeat;
+background-size: 120%;
+
+
+}

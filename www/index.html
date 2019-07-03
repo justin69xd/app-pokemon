@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../lib/boo2/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../lib/jQuery.js"></script>
+    <title></title>
+
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+
+  <body ng-app="starter" class="apaas">
+    
+    <img class="imgpoa" src="https://media0.giphy.com/media/jM4bWFBKpSFeo/giphy.gif" alt="">
+  <header>
+</header>
+<h1 class="olas">Descubre tu pokemon ideal</h1>
+<section>
+  <img id="random" class="pokeas" src="https://res.cloudinary.com/beumsk/image/upload/v1506068916/pokeball.png" alt="random pokemon" title="Click and see your Pokemon"></br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div data-video="vDNzyytIw24" data-autoplay="0" data-loop="1" id="youtube-audio" title="Play/Stop"> <i class="fa fa-volume-off fa-2x" aria-hidden="true"></i> </div>
+  <script src="https://www.youtube.com/iframe_api"></script>
+</section>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-nav-view></ion-nav-view>
+    <script src="../lib/angular.js"></script>
+    <script src="../lib/boo2/js/bootstrap.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="js/main.js"></script>
+
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Righteous&display=swap');
+</style>
+  </body>
+</html>
